@@ -1088,7 +1088,7 @@ const handleClose = (done) => {
   <p>Sn - {{ user_jp }}</p>
   <p>{{ checkIn }}</p>
   <p>{{ result }}</p> -->
-  <el-button v-if="checkIn > 1" type="success" @click="dialogVisible = true">Закончить</el-button>
+  <el-button v-if="checkIn > 69" type="success" @click="dialogVisible = true">Закончить</el-button>
   <h2 v-else>Заполните все поля!</h2>
 
   <el-dialog v-model="dialogVisible">
